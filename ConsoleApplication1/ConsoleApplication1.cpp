@@ -6,8 +6,10 @@
 int main()
 {
     std::cout << "Hello World!\n";
+
     std::cout << "ナマコブシかわいい\n";
     std::cout << "410\n";
+
 
     return 0;
 }
