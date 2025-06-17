@@ -2,9 +2,32 @@
 //
 
 #include <iostream>
+#include <cassert>
+#include <algorithm>
 
-int main()
-{
+//  動物
+class アニマル {
+
+public:
+    virtual void 前足() = 0;
+    virtual void 後足() = 0;
+    virtual void 胴体() = 0;
+    virtual void 頭() = 0;
+    virtual void 尻尾() = 0;
+};
+
+//  猫
+class 猫 :アニマル {
+public:
+    void 前足()override {};
+    void 後足()override {};
+    void 胴体()override {};
+    void 頭()override {};
+    void 尻尾()override {};
+};
+
+int main(){
+    
     std::cout << "Hello World!\n";
 
     std::cout << "私の名前は 肴場　涼佑 です\n";
@@ -20,3 +43,8 @@ int main()
 //   4. エラー一覧ウィンドウを使用してエラーを表示します
 //   5. [プロジェクト] > [新しい項目の追加] と移動して新しいコード ファイルを作成するか、[プロジェクト] > [既存の項目の追加] と移動して既存のコード ファイルをプロジェクトに追加します
 //   6. 後ほどこのプロジェクトを再び開く場合、[ファイル] > [開く] > [プロジェクト] と移動して .sln ファイルを選択します
+
+//  create since 2025/6/17  
+// 今日はいい天気で、６月なのに夏を感じました。
+//  ６月入ったばかりだと思っていましたがもう中旬だそうで怖いです。
+//  おすすめのアイスを教えてください。
