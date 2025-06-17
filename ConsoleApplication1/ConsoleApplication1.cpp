@@ -2,12 +2,38 @@
 //
 
 #include <iostream>
+#include <cassert>
+#include <algorithm>
 
-int main()
-{
+//  動物
+class アニマル {
+
+public:
+    virtual void 前足() = 0;
+    virtual void 後足() = 0;
+    virtual void 胴体() = 0;
+    virtual void 頭() = 0;
+    virtual void 尻尾() = 0;
+};
+
+//  猫
+class 猫 :アニマル {
+public:
+    void 前足()override {};
+    void 後足()override {};
+    void 胴体()override {};
+    void 頭()override {};
+    void 尻尾()override {};
+};
+
+int main(){
+    
     std::cout << "Hello World!\n";
+
+    return 0;
 }
 
+// 然
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
 // プログラムのデバッグ: F5 または [デバッグ] > [デバッグの開始] メニュー
 
