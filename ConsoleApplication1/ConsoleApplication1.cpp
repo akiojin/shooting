@@ -6,7 +6,7 @@
 int main()
 {
     std::cout << "Hello World!\n";
-    std::cout << "ところてん\n";
+    std::cout << "私の名前は 肴場涼佑 です\n";
 }
 
 // 然
