@@ -7,12 +7,12 @@ int main()
 {
     std::cout << "Hello World!\n";
 
-
     //大魔王渡辺の帰還だ！！
     std::cout << "俺は不死の大王渡辺様だぞ！!\n";
     std::cout << "今日もいいペンキ!\n";
     return 0;
 }
+
 
 
 
