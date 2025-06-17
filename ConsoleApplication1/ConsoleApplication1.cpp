@@ -14,7 +14,7 @@ int main()
     //ナマコむほほ
 
     std::cout << "ナマコブシかわいい\n";
-    std::cout << "410\n";
+
 
 
     return 0;
