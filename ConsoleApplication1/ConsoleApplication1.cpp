@@ -3,15 +3,12 @@
 
 #include <iostream>
 
+
 int main()
 {
     std::cout << "Hello World!\n";
 
-    return 0;   //  追加
-
-    std::cout << "こんにちは！\n";
-
-    std::cout << "おはようございます\n";
+    std::cout << "変更\n";
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
